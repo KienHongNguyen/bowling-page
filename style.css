@@ -206,7 +206,14 @@ header {
     box-shadow: hsl(358, 76%, 20%) -8px 8px;
     color: white;
     border: none;
+    transform: translateY(-4px);
+    transition: transform ease 0.1s;
 }
+/* Home Button Clicked */
+#home-section .cs-content button:active {
+    transform: translateX(-1px);
+}
+
 
                             
 
@@ -273,7 +280,14 @@ header {
     border-radius: 5px;
     border: none;
     box-shadow: hsl(0, 0%, 10%) 5px 5px;
+    transform: translateY(-2px);
+    transition: transform ease 0.1s;
 }
+/* Card 1 Button Clicked */
+.functionCard1 button:active {
+transform: translateX(2px);
+}
+
 
 
 /* Card 2 Container */
@@ -314,7 +328,14 @@ header {
     border-radius: 5px;
     border: none;
     box-shadow: hsl(0, 0%, 10%) 5px 5px;
+    transform: translateY(-2px);
+    transition: transform ease 0.1s;
 }
+/* Card 2 Button Clicked */
+.functionCard2 button:active {
+transform: translateX(2px);
+}
+
 
 
 /* Card 3 Container */
@@ -355,7 +376,14 @@ header {
     border-radius: 5px;
     border: none;
     box-shadow: hsl(0, 0%, 10%) 5px 5px;
+    transform: translateY(-2px);
+    transition: transform ease 0.1s;
 }
+/* Card 3 Button Clicked */
+.functionCard3 button:active {
+transform: translateX(2px);
+}
+
 
 
 
@@ -432,8 +460,15 @@ header {
     color: white;
     border: none;
     border-radius: 10px;
-    background-color: #C51B21FF;;
+    background-color: #C51B21FF;
+    transform: translateY(-3px);
+    transition: transform ease 0.1s;
 }
+/* Class Card 1 Right Button Clicked */
+#classCard1Right button:active {
+    transform: translateX(-1px);
+}
+
 
 
 /* Class Card 2 Container */
@@ -488,6 +523,12 @@ header {
     border: none;
     border-radius: 10px;
     background-color: #C51B21FF;;
+    transform: translateY(-3px);
+    transition: transform ease 0.1s;
+}
+/* Class Card 2 Right Button Clicked */
+#classCard2Right button:active {
+    transform: translateX(-1px);
 }
 
 
@@ -543,6 +584,12 @@ header {
     border: none;
     border-radius: 10px;
     background-color: #C51B21FF;;
+    transform: translateY(-3px);
+    transition: transform ease 0.1s;
+}
+/* Class Card 3 Right Button Clicked */
+#classCard3Right button:active {
+    transform: translateX(-1px);
 }
 
 
@@ -599,6 +646,7 @@ header {
     display: flex;
     flex-direction: column;
 }
+/* Price Right Button */
 .price-right button {
     height: 120px;
     width: 300px;
@@ -610,7 +658,14 @@ header {
     box-shadow: hsl(358, 76%, 20%) 8px 8px;
     color: white;
     border: none;
+    transform: translateY(-4px);
+    transition: transform ease 0.1s;
 }
+/* Price Right Button Clicked */
+.price-right button:active {
+    transform: translateX(2px);
+}
+
 /* Price Card Container */
 .price-card {
     display: flex;
