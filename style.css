@@ -1140,10 +1140,10 @@ header {
 /* Functions Main Text */
 #functions-section h1 {
     color: white;
+    text-align: center;
     margin-top: 4vh;
     margin-bottom: 4vh;
     font-size: 2rem;
-    margin-left: 10vw;
 }
 /* Functions Card Container */
 .functions-card-mobile {
@@ -1161,9 +1161,10 @@ header {
 /* Card 1 Container */
 .functionCard1 {
     display: flex;
-    width: 80vw;
+    width: 90vw;
     height: 30vh;
-    margin-left: 10vw;
+    margin-left: 5vw;
+    padding-left: 0vw;
     border-radius: 1rem;
     background-color: #C51B21FF;
 }
@@ -1213,27 +1214,28 @@ transform: translateX(0.2vw);
 .cardRight1 {
     display: flex;
     height: 30vh;
-    width: 26vw;
+    width: 40vw;
     margin-left: 5vw;
 }
 /* Card 1 Paragraph Text */
 .functionCard1 p {
-    width: 30vw;
+    width: 35vw;
     margin-left: 2vw;
     font-weight: 100;
-    font-size: 0.65rem;
-    line-height: 2vh;
+    font-size: 0.8rem;
+    line-height: 2.5vh;   
 }
 
 
 /* Card 2 Container */
 .functionCard2 {
     display: flex;
-    width: 80vw;
+    width: 90vw;
     height: 30vh;
-    margin-left: 10vw;
-    background-color: #C51B21FF;
+    margin-left: 5vw;
+    padding-left: 0vw;
     border-radius: 1rem;
+    background-color: #C51B21FF;
 }
 /* Left Card 2 Container */
 .cardLeft2 {
@@ -1281,27 +1283,28 @@ transform: translateX(0.2vw);
 .cardRight2 {
     display: flex;
     height: 30vh;
-    width: 26vw;
+    width: 40vw;
     margin-left: 5vw;
 }
 /* Card 2 Paragraph Text */
 .functionCard2 p {
-    width: 30vw;
+    width: 35vw;
     margin-left: 2vw;
     font-weight: 100;
-    font-size: 0.68rem;
-    line-height: 2vh;
+    font-size: 0.8rem;
+    line-height: 2.5vh;   
 }
 
 
 /* Card 3 Container */
 .functionCard3 {
     display: flex;
-    width: 80vw;
+    width: 90vw;
     height: 30vh;
-    margin-left: 10vw;
-    background-color: #C51B21FF;
+    margin-left: 5vw;
+    padding-left: 0vw;
     border-radius: 1rem;
+    background-color: #C51B21FF;
 }
 /* Left Card 3 Container */
 .cardLeft3 {
@@ -1349,16 +1352,16 @@ transform: translateX(0.2vw);
 .cardRight3 {
     display: flex;
     height: 30vh;
-    width: 26vw;
+    width: 40vw;
     margin-left: 5vw;
 }
 /* Card 3 Paragraph Text */
 .functionCard3 p {
-    width: 30vw;
+    width: 35vw;
     margin-left: 2vw;
     font-weight: 100;
-    font-size: 0.65rem;
-    line-height: 2vh;
+    font-size: 0.85rem;
+    line-height: 2.5vh;   
 }
 
 
@@ -1378,8 +1381,7 @@ transform: translateX(0.2vw);
     margin-top: 4vh;
     margin-bottom: 4vh;
     font-size: 2rem;
-    margin-right: 10vw;
-    text-align: right;
+    text-align: center;
 }
 /* Disable Desktop Class Card */
 .desktopClassCard {
